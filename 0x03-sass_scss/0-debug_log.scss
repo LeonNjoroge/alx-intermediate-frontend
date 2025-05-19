@@ -1,0 +1,4 @@
+@mixin print-hello-world() {
+  @debug "Hello world";
+}
+@include print-hello-world();
